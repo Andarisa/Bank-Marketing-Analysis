@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        h1{
+            color: rgb(59, 58, 58);
+            font-weight: bold;
+            font-family: Georgia, serif ;
+            font-size: 60px;
+        }
+        h2{
+            color: rgb(59, 58, 58);
+            font-weight: bold;
+            font-family: Georgia, serif ;
+            font-size: 35px;
+        }
+        P{
+            color: rgb(8, 8, 8);
+            font-family: "Arial";
+            font-style: normal; 
+            font-size: 20px;
+        }
+    </style>
+    <title>Result</title>
+</head>
+<body style="background-image: url('https://i.pinimg.com/originals/90/25/fa/9025fa9a7a570d8187d65edbecabdca1.png');no-repeat :fixed;
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-size: 100% 100%;">
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1><u>Predicting Result</u></h1>
+        <br>
+        <p class="container" </p>
+            <b>Job: </b> {{Job}}<br>
+            <b>Marital Status: </b> {{Marital}} <br>
+            <b>Education: </b> {{Education}}<br>
+            <b>Has Credit in Default: </b> {{Default}}<br>
+            <b>Balance: </b> {{Balance}}<br>
+            <b>Has Housing Loan: </b> {{Housing}}<br>
+            <b>Has Personal Loan: </b> {{Loan}}<br>
+            <b>Contact Communication Type: </b> {{Contact}}<br>
+            <b>Date Contacted: </b> {{Day}} <br>
+            <b>Last Contact Month: </b> {{Month}}<br>
+            <b>Last Contacted Duration (in second): </b> {{Duration}}<br>
+            <b>Current Campaign Contacted: </b> {{Campaign}} times<br>
+            <b>Previous Campaign Contacted: </b> {{Previous}} times<br>
+            <b>Age Group: </b> {{Age}}<br>
+            <b>Days passed by after last contacted from a previous campaign: </b> {{Pdays}}<br>
+        </p>
+        <hr>
+        <p>
+            <b>The Result Is:</b> <br>
+        </p>
+        <h2>{{proba}}%, {{pred}}</h2>
+        <p>{{proba}}% Customer Will {{open}} Deposit</p>        
+    </center>
+</body>
+</html>
