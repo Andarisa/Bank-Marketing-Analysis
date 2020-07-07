@@ -8,5 +8,7 @@ Bank Marketing Dataset from UCI Machine Learning Repository :  https://archive.i
 
 
 ## Process
+
 <hr>
-![Screen Shot 2020-07-07 at 10 47 03 PM](https://user-images.githubusercontent.com/60954982/86807907-819de680-c0a4-11ea-962f-8a19b13361d8.png)
+
+<img src = "https://user-images.githubusercontent.com/60954982/86807907-819de680-c0a4-11ea-962f-8a19b13361d8.png">
